@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "57CC66C7-93CF-4B72-96C1-5B7942DA734F"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D005F25E-B80A-4ED7-ADA3-722B1C4E23A9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "File Manager/TableViewCell/PhotoCollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "init(frame:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D005F25E-B80A-4ED7-ADA3-722B1C4E23A9 - bff74223534930c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "File_Manager.PhotoCollectionViewCell.init(frame: __C.CGRect) -&gt; File_Manager.PhotoCollectionViewCell"
+                  moduleName = "File Manager"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zakariadarwish/Desktop/File%20Manager/File%20Manager/TableViewCell/PhotoCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "352">
+               </Location>
+               <Location
+                  uuid = "D005F25E-B80A-4ED7-ADA3-722B1C4E23A9 - bff74223534930c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "File_Manager.PhotoCollectionViewCell.init(frame: __C.CGRect) -&gt; File_Manager.PhotoCollectionViewCell"
+                  moduleName = "File Manager"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zakariadarwish/Desktop/File%20Manager/File%20Manager/TableViewCell/PhotoCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "440">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

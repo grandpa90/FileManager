@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4EEE06D48A2F901ED12C7C33 /* AppLovinQualityService.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C53E5DDFA56A091E35223B /* AppLovinQualityService.xcframework */; };
 		79B58DD82AFD39F9004CE113 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B58DD72AFD39F9004CE113 /* AppDelegate.swift */; };
 		79B58DDA2AFD39F9004CE113 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B58DD92AFD39F9004CE113 /* SceneDelegate.swift */; };
 		79B58DDC2AFD39F9004CE113 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B58DDB2AFD39F9004CE113 /* ViewController.swift */; };
@@ -17,6 +18,28 @@
 		79B58DF22AFD39FA004CE113 /* File_ManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B58DF12AFD39FA004CE113 /* File_ManagerTests.swift */; };
 		79B58DFC2AFD39FA004CE113 /* File_ManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B58DFB2AFD39FA004CE113 /* File_ManagerUITests.swift */; };
 		79B58DFE2AFD39FA004CE113 /* File_ManagerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B58DFD2AFD39FA004CE113 /* File_ManagerUITestsLaunchTests.swift */; };
+		79B58E0C2AFD3D9B004CE113 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B58E0B2AFD3D9B004CE113 /* Constants.swift */; };
+		79B58E162AFD7540004CE113 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B58E152AFD7540004CE113 /* NotificationService.swift */; };
+		79B58E1A2AFD7540004CE113 /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 79B58E132AFD7540004CE113 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		79B58E202AFD771D004CE113 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B58E1F2AFD771D004CE113 /* NotificationService.swift */; };
+		79B58E232AFE4B51004CE113 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B58E222AFE4B51004CE113 /* TabBarViewController.swift */; };
+		79B58E262AFE4F84004CE113 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79B58E252AFE4F83004CE113 /* GoogleService-Info.plist */; };
+		79B58E2D2AFECFE1004CE113 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B58E2C2AFECFE1004CE113 /* HomeViewController.swift */; };
+		79B58E2F2AFFD06E004CE113 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B58E2E2AFFD06E004CE113 /* Extension.swift */; };
+		79B58E332AFFE991004CE113 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B58E322AFFE991004CE113 /* NavigationViewController.swift */; };
+		79B58E352B0136D3004CE113 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B58E342B0136D3004CE113 /* SettingsViewController.swift */; };
+		79B58E372B0139C6004CE113 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B58E362B0139C6004CE113 /* SettingsTableViewController.swift */; };
+		79B58E3B2B0154EE004CE113 /* PushNotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B58E3A2B0154EE004CE113 /* PushNotificationTableViewCell.swift */; };
+		79B58E3D2B01552E004CE113 /* AboutUsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B58E3C2B01552E004CE113 /* AboutUsTableViewCell.swift */; };
+		79B58E3F2B01553E004CE113 /* ContactUsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B58E3E2B01553E004CE113 /* ContactUsTableViewCell.swift */; };
+		79B58E412B0155AA004CE113 /* VersionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B58E402B0155AA004CE113 /* VersionTableViewCell.swift */; };
+		79DE14432B02D9CA00DC50E3 /* photosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DE14422B02D9CA00DC50E3 /* photosCollectionViewController.swift */; };
+		79DE14452B02D9DF00DC50E3 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DE14442B02D9DE00DC50E3 /* PhotoCollectionViewCell.swift */; };
+		79DE14492B02E5A100DC50E3 /* DataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DE14482B02E5A100DC50E3 /* DataViewModel.swift */; };
+		8175FDFA0054AE9902EB0E1F /* Pods_File_Manager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44443129AAF22C5CCF3E363C /* Pods_File_Manager.framework */; };
+		9318EDC9BE149C6C16F33F19 /* Pods_File_ManagerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6E9CDBA7F8A937AC8EDAF93 /* Pods_File_ManagerTests.framework */; };
+		E21D8F2060B6DFEA6F7FF949 /* Pods_File_Manager_File_ManagerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26898AD004AB497C6B3FBAEC /* Pods_File_Manager_File_ManagerUITests.framework */; };
+		FE604D350352471F3E22A426 /* AppLovinQualityService.xcframework in AppLovinQualityService Embed Framework */ = {isa = PBXBuildFile; fileRef = 60C53E5DDFA56A091E35223B /* AppLovinQualityService.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +57,49 @@
 			remoteGlobalIDString = 79B58DD32AFD39F9004CE113;
 			remoteInfo = "File Manager";
 		};
+		79B58E182AFD7540004CE113 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79B58DCC2AFD39F9004CE113 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79B58E122AFD7540004CE113;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		79B58E1E2AFD7540004CE113 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				79B58E1A2AFD7540004CE113 /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		7CCCD59C3C687F57FE565BEB /* AppLovinQualityService Embed Framework */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FE604D350352471F3E22A426 /* AppLovinQualityService.xcframework in AppLovinQualityService Embed Framework */,
+			);
+			name = "AppLovinQualityService Embed Framework";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		196923A7E6228010C83752E2 /* Pods-File Manager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-File Manager.debug.xcconfig"; path = "Target Support Files/Pods-File Manager/Pods-File Manager.debug.xcconfig"; sourceTree = "<group>"; };
+		23011615EE97FCB3ABED8A5D /* Pods-File Manager-File ManagerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-File Manager-File ManagerUITests.debug.xcconfig"; path = "Target Support Files/Pods-File Manager-File ManagerUITests/Pods-File Manager-File ManagerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		24C40D30CF160F2B43D14748 /* Pods-File Manager-File ManagerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-File Manager-File ManagerUITests.release.xcconfig"; path = "Target Support Files/Pods-File Manager-File ManagerUITests/Pods-File Manager-File ManagerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		250C8E3307064C46371788A5 /* Pods-File Manager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-File Manager.release.xcconfig"; path = "Target Support Files/Pods-File Manager/Pods-File Manager.release.xcconfig"; sourceTree = "<group>"; };
+		26898AD004AB497C6B3FBAEC /* Pods_File_Manager_File_ManagerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_File_Manager_File_ManagerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35D75B66BCAC2FB8B54E2A79 /* Pods-File ManagerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-File ManagerTests.release.xcconfig"; path = "Target Support Files/Pods-File ManagerTests/Pods-File ManagerTests.release.xcconfig"; sourceTree = "<group>"; };
+		44443129AAF22C5CCF3E363C /* Pods_File_Manager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_File_Manager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C53E5DDFA56A091E35223B /* AppLovinQualityService.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:B8HZ37M8S5:SafeDK Mobile Ltd."; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = AppLovinQualityService.xcframework; path = AppLovinQualityService/AppLovinQualityService.xcframework; sourceTree = "<group>"; };
 		79B58DD42AFD39F9004CE113 /* File Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "File Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79B58DD72AFD39F9004CE113 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79B58DD92AFD39F9004CE113 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +114,28 @@
 		79B58DF72AFD39FA004CE113 /* File ManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "File ManagerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79B58DFB2AFD39FA004CE113 /* File_ManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File_ManagerUITests.swift; sourceTree = "<group>"; };
 		79B58DFD2AFD39FA004CE113 /* File_ManagerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File_ManagerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		79B58E0B2AFD3D9B004CE113 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		79B58E0E2AFD7495004CE113 /* File Manager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "File Manager.entitlements"; sourceTree = "<group>"; };
+		79B58E132AFD7540004CE113 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		79B58E152AFD7540004CE113 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		79B58E172AFD7540004CE113 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79B58E1F2AFD771D004CE113 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		79B58E222AFE4B51004CE113 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		79B58E252AFE4F83004CE113 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		79B58E2C2AFECFE1004CE113 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		79B58E2E2AFFD06E004CE113 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		79B58E322AFFE991004CE113 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		79B58E342B0136D3004CE113 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		79B58E362B0139C6004CE113 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		79B58E3A2B0154EE004CE113 /* PushNotificationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationTableViewCell.swift; sourceTree = "<group>"; };
+		79B58E3C2B01552E004CE113 /* AboutUsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsTableViewCell.swift; sourceTree = "<group>"; };
+		79B58E3E2B01553E004CE113 /* ContactUsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsTableViewCell.swift; sourceTree = "<group>"; };
+		79B58E402B0155AA004CE113 /* VersionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionTableViewCell.swift; sourceTree = "<group>"; };
+		79DE14422B02D9CA00DC50E3 /* photosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photosCollectionViewController.swift; sourceTree = "<group>"; };
+		79DE14442B02D9DE00DC50E3 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		79DE14482B02E5A100DC50E3 /* DataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewModel.swift; sourceTree = "<group>"; };
+		B6E9CDBA7F8A937AC8EDAF93 /* Pods_File_ManagerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_File_ManagerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5AC8049A17F01509D0ED9EF /* Pods-File ManagerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-File ManagerTests.debug.xcconfig"; path = "Target Support Files/Pods-File ManagerTests/Pods-File ManagerTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +143,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EEE06D48A2F901ED12C7C33 /* AppLovinQualityService.xcframework in Frameworks */,
+				8175FDFA0054AE9902EB0E1F /* Pods_File_Manager.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,10 +152,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9318EDC9BE149C6C16F33F19 /* Pods_File_ManagerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		79B58DF42AFD39FA004CE113 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E21D8F2060B6DFEA6F7FF949 /* Pods_File_Manager_File_ManagerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79B58E102AFD7540004CE113 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,13 +174,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53213B7A234A56C2588F4BF8 /* AppLovinQualityService */ = {
+			isa = PBXGroup;
+			children = (
+				60C53E5DDFA56A091E35223B /* AppLovinQualityService.xcframework */,
+			);
+			name = AppLovinQualityService;
+			sourceTree = "<group>";
+		};
 		79B58DCB2AFD39F9004CE113 = {
 			isa = PBXGroup;
 			children = (
 				79B58DD62AFD39F9004CE113 /* File Manager */,
 				79B58DF02AFD39FA004CE113 /* File ManagerTests */,
 				79B58DFA2AFD39FA004CE113 /* File ManagerUITests */,
+				79B58E142AFD7540004CE113 /* OneSignalNotificationServiceExtension */,
 				79B58DD52AFD39F9004CE113 /* Products */,
+				A374BBCA902B3FAB19D4AEC4 /* Pods */,
+				B643D1A97794F5E644213659 /* Frameworks */,
+				53213B7A234A56C2588F4BF8 /* AppLovinQualityService */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +202,7 @@
 				79B58DD42AFD39F9004CE113 /* File Manager.app */,
 				79B58DED2AFD39FA004CE113 /* File ManagerTests.xctest */,
 				79B58DF72AFD39FA004CE113 /* File ManagerUITests.xctest */,
+				79B58E132AFD7540004CE113 /* OneSignalNotificationServiceExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +210,12 @@
 		79B58DD62AFD39F9004CE113 /* File Manager */ = {
 			isa = PBXGroup;
 			children = (
+				79DE14472B02E58E00DC50E3 /* ViewModel */,
+				79B58E392B0154D1004CE113 /* TableViewCell */,
+				79B58E252AFE4F83004CE113 /* GoogleService-Info.plist */,
+				79B58E212AFE4B33004CE113 /* ViewControllers */,
+				79B58E0E2AFD7495004CE113 /* File Manager.entitlements */,
+				79B58E0A2AFD3D87004CE113 /* Utility */,
 				79B58DD72AFD39F9004CE113 /* AppDelegate.swift */,
 				79B58DD92AFD39F9004CE113 /* SceneDelegate.swift */,
 				79B58DDB2AFD39F9004CE113 /* ViewController.swift */,
@@ -130,6 +245,81 @@
 			path = "File ManagerUITests";
 			sourceTree = "<group>";
 		};
+		79B58E0A2AFD3D87004CE113 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				79B58E0B2AFD3D9B004CE113 /* Constants.swift */,
+				79B58E1F2AFD771D004CE113 /* NotificationService.swift */,
+				79B58E2E2AFFD06E004CE113 /* Extension.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		79B58E142AFD7540004CE113 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				79B58E152AFD7540004CE113 /* NotificationService.swift */,
+				79B58E172AFD7540004CE113 /* Info.plist */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		79B58E212AFE4B33004CE113 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				79B58E222AFE4B51004CE113 /* TabBarViewController.swift */,
+				79B58E2C2AFECFE1004CE113 /* HomeViewController.swift */,
+				79B58E322AFFE991004CE113 /* NavigationViewController.swift */,
+				79B58E342B0136D3004CE113 /* SettingsViewController.swift */,
+				79B58E362B0139C6004CE113 /* SettingsTableViewController.swift */,
+				79DE14422B02D9CA00DC50E3 /* photosCollectionViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		79B58E392B0154D1004CE113 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				79B58E3A2B0154EE004CE113 /* PushNotificationTableViewCell.swift */,
+				79B58E3C2B01552E004CE113 /* AboutUsTableViewCell.swift */,
+				79B58E3E2B01553E004CE113 /* ContactUsTableViewCell.swift */,
+				79B58E402B0155AA004CE113 /* VersionTableViewCell.swift */,
+				79DE14442B02D9DE00DC50E3 /* PhotoCollectionViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		79DE14472B02E58E00DC50E3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				79DE14482B02E5A100DC50E3 /* DataViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A374BBCA902B3FAB19D4AEC4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				196923A7E6228010C83752E2 /* Pods-File Manager.debug.xcconfig */,
+				250C8E3307064C46371788A5 /* Pods-File Manager.release.xcconfig */,
+				23011615EE97FCB3ABED8A5D /* Pods-File Manager-File ManagerUITests.debug.xcconfig */,
+				24C40D30CF160F2B43D14748 /* Pods-File Manager-File ManagerUITests.release.xcconfig */,
+				E5AC8049A17F01509D0ED9EF /* Pods-File ManagerTests.debug.xcconfig */,
+				35D75B66BCAC2FB8B54E2A79 /* Pods-File ManagerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B643D1A97794F5E644213659 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44443129AAF22C5CCF3E363C /* Pods_File_Manager.framework */,
+				26898AD004AB497C6B3FBAEC /* Pods_File_Manager_File_ManagerUITests.framework */,
+				B6E9CDBA7F8A937AC8EDAF93 /* Pods_File_ManagerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,13 +327,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 79B58E012AFD39FA004CE113 /* Build configuration list for PBXNativeTarget "File Manager" */;
 			buildPhases = (
+				806B843AD9E95A2D14330CB3 /* [CP] Check Pods Manifest.lock */,
+				D74B48B56247A64E9F8EBF97 /* AppLovinQualityService Updater */,
+				7CCCD59C3C687F57FE565BEB /* AppLovinQualityService Embed Framework */,
 				79B58DD02AFD39F9004CE113 /* Sources */,
 				79B58DD12AFD39F9004CE113 /* Frameworks */,
 				79B58DD22AFD39F9004CE113 /* Resources */,
+				3BD433624279117751431BD6 /* [CP] Embed Pods Frameworks */,
+				EF01123CEB925BC0F2F53DAE /* [CP] Copy Pods Resources */,
+				B806D63E79F99F715227883E /* AppLovinQualityService */,
+				79B58E1E2AFD7540004CE113 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				79B58E192AFD7540004CE113 /* PBXTargetDependency */,
 			);
 			name = "File Manager";
 			productName = "File Manager";
@@ -154,6 +352,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 79B58E042AFD39FA004CE113 /* Build configuration list for PBXNativeTarget "File ManagerTests" */;
 			buildPhases = (
+				D48891FBA10630B566B1E618 /* [CP] Check Pods Manifest.lock */,
 				79B58DE92AFD39FA004CE113 /* Sources */,
 				79B58DEA2AFD39FA004CE113 /* Frameworks */,
 				79B58DEB2AFD39FA004CE113 /* Resources */,
@@ -172,9 +371,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 79B58E072AFD39FA004CE113 /* Build configuration list for PBXNativeTarget "File ManagerUITests" */;
 			buildPhases = (
+				D967047D197E99BCC1E660A7 /* [CP] Check Pods Manifest.lock */,
 				79B58DF32AFD39FA004CE113 /* Sources */,
 				79B58DF42AFD39FA004CE113 /* Frameworks */,
 				79B58DF52AFD39FA004CE113 /* Resources */,
+				B35082CA5B866612FA2508B2 /* [CP] Embed Pods Frameworks */,
+				AC3C681E0AB5F6B58F9CDF9C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -185,6 +387,23 @@
 			productName = "File ManagerUITests";
 			productReference = 79B58DF72AFD39FA004CE113 /* File ManagerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		79B58E122AFD7540004CE113 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79B58E1B2AFD7540004CE113 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				79B58E0F2AFD7540004CE113 /* Sources */,
+				79B58E102AFD7540004CE113 /* Frameworks */,
+				79B58E112AFD7540004CE113 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 79B58E132AFD7540004CE113 /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -207,6 +426,9 @@
 						CreatedOnToolsVersion = 15.0.1;
 						TestTargetID = 79B58DD32AFD39F9004CE113;
 					};
+					79B58E122AFD7540004CE113 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
 				};
 			};
 			buildConfigurationList = 79B58DCF2AFD39F9004CE113 /* Build configuration list for PBXProject "File Manager" */;
@@ -225,6 +447,7 @@
 				79B58DD32AFD39F9004CE113 /* File Manager */,
 				79B58DEC2AFD39FA004CE113 /* File ManagerTests */,
 				79B58DF62AFD39FA004CE113 /* File ManagerUITests */,
+				79B58E122AFD7540004CE113 /* OneSignalNotificationServiceExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -235,6 +458,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79B58DE72AFD39FA004CE113 /* LaunchScreen.storyboard in Resources */,
+				79B58E262AFE4F84004CE113 /* GoogleService-Info.plist in Resources */,
 				79B58DE42AFD39FA004CE113 /* Assets.xcassets in Resources */,
 				79B58DDF2AFD39F9004CE113 /* Main.storyboard in Resources */,
 			);
@@ -254,17 +478,212 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		79B58E112AFD7540004CE113 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BD433624279117751431BD6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-File Manager/Pods-File Manager-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-File Manager/Pods-File Manager-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-File Manager/Pods-File Manager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		806B843AD9E95A2D14330CB3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-File Manager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC3C681E0AB5F6B58F9CDF9C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-File Manager-File ManagerUITests/Pods-File Manager-File ManagerUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-File Manager-File ManagerUITests/Pods-File Manager-File ManagerUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-File Manager-File ManagerUITests/Pods-File Manager-File ManagerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B35082CA5B866612FA2508B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-File Manager-File ManagerUITests/Pods-File Manager-File ManagerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-File Manager-File ManagerUITests/Pods-File Manager-File ManagerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-File Manager-File ManagerUITests/Pods-File Manager-File ManagerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B806D63E79F99F715227883E /* AppLovinQualityService */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				AppLovinQualityService/AppLovinQualityServicePlugin.app,
+				"$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+				"$(TARGET_BUILD_DIR)/$(EXECUTABLE_PATH)",
+				"$(TARGET_BUILD_DIR)/$(FRAMEWORKS_FOLDER_PATH)/UnityFramework.framework/UnityFramework",
+			);
+			name = AppLovinQualityService;
+			outputPaths = (
+				"$(TARGET_BUILD_DIR)/$(EXECUTABLE_FOLDER_PATH)/.AppLovinQualityService/AppLovinQualityService.json",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "AppLovinQualityService/AppLovinQualityServicePlugin.app/Contents/MacOS/AppLovinQualityServicePlugin \"AppLovinQualityServiceSetup-ios.rb\"";
+		};
+		D48891FBA10630B566B1E618 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-File ManagerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D74B48B56247A64E9F8EBF97 /* AppLovinQualityService Updater */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "AppLovinQualityService Updater";
+			outputPaths = (
+				AppLovinQualityService/AppLovinQualityServicePlugin.app,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "ruby \"AppLovinQualityServiceSetup-ios.rb\" update";
+		};
+		D967047D197E99BCC1E660A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-File Manager-File ManagerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF01123CEB925BC0F2F53DAE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-File Manager/Pods-File Manager-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-File Manager/Pods-File Manager-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-File Manager/Pods-File Manager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		79B58DD02AFD39F9004CE113 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79B58E2F2AFFD06E004CE113 /* Extension.swift in Sources */,
+				79DE14452B02D9DF00DC50E3 /* PhotoCollectionViewCell.swift in Sources */,
+				79B58E0C2AFD3D9B004CE113 /* Constants.swift in Sources */,
+				79DE14492B02E5A100DC50E3 /* DataViewModel.swift in Sources */,
+				79B58E352B0136D3004CE113 /* SettingsViewController.swift in Sources */,
+				79B58E3B2B0154EE004CE113 /* PushNotificationTableViewCell.swift in Sources */,
 				79B58DDC2AFD39F9004CE113 /* ViewController.swift in Sources */,
 				79B58DD82AFD39F9004CE113 /* AppDelegate.swift in Sources */,
+				79B58E2D2AFECFE1004CE113 /* HomeViewController.swift in Sources */,
+				79B58E3D2B01552E004CE113 /* AboutUsTableViewCell.swift in Sources */,
 				79B58DDA2AFD39F9004CE113 /* SceneDelegate.swift in Sources */,
+				79B58E232AFE4B51004CE113 /* TabBarViewController.swift in Sources */,
+				79B58E3F2B01553E004CE113 /* ContactUsTableViewCell.swift in Sources */,
+				79B58E372B0139C6004CE113 /* SettingsTableViewController.swift in Sources */,
+				79B58E202AFD771D004CE113 /* NotificationService.swift in Sources */,
+				79B58E332AFFE991004CE113 /* NavigationViewController.swift in Sources */,
+				79B58E412B0155AA004CE113 /* VersionTableViewCell.swift in Sources */,
 				79B58DE22AFD39F9004CE113 /* File_Manager.xcdatamodeld in Sources */,
+				79DE14432B02D9CA00DC50E3 /* photosCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +704,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		79B58E0F2AFD7540004CE113 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79B58E162AFD7540004CE113 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -297,6 +724,11 @@
 			isa = PBXTargetDependency;
 			target = 79B58DD32AFD39F9004CE113 /* File Manager */;
 			targetProxy = 79B58DF82AFD39FA004CE113 /* PBXContainerItemProxy */;
+		};
+		79B58E192AFD7540004CE113 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79B58E122AFD7540004CE113 /* OneSignalNotificationServiceExtension */;
+			targetProxy = 79B58E182AFD7540004CE113 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -357,7 +789,11 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AppLovinQualityService",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -372,7 +808,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -420,7 +856,11 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AppLovinQualityService",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -429,7 +869,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -441,23 +881,36 @@
 		};
 		79B58E022AFD39FA004CE113 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 196923A7E6228010C83752E2 /* Pods-File Manager.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "File Manager/File Manager.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(inherited)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "File Manager/Info.plist";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We use this data to personalize your experience and show relevant ads.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-ld_classic",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.File-Manager";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -468,23 +921,36 @@
 		};
 		79B58E032AFD39FA004CE113 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 250C8E3307064C46371788A5 /* Pods-File Manager.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "File Manager/File Manager.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(inherited)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "File Manager/Info.plist";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We use this data to personalize your experience and show relevant ads.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-ld_classic",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.File-Manager";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -495,6 +961,7 @@
 		};
 		79B58E052AFD39FA004CE113 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5AC8049A17F01509D0ED9EF /* Pods-File ManagerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +981,7 @@
 		};
 		79B58E062AFD39FA004CE113 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35D75B66BCAC2FB8B54E2A79 /* Pods-File ManagerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -533,6 +1001,7 @@
 		};
 		79B58E082AFD39FA004CE113 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23011615EE97FCB3ABED8A5D /* Pods-File Manager-File ManagerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +1019,7 @@
 		};
 		79B58E092AFD39FA004CE113 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24C40D30CF160F2B43D14748 /* Pods-File Manager-File ManagerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -562,6 +1032,58 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "File Manager";
+			};
+			name = Release;
+		};
+		79B58E1C2AFD7540004CE113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.File-Manager.OneSignalNotificationServiceExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79B58E1D2AFD7540004CE113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.File-Manager.OneSignalNotificationServiceExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -600,6 +1122,15 @@
 			buildConfigurations = (
 				79B58E082AFD39FA004CE113 /* Debug */,
 				79B58E092AFD39FA004CE113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79B58E1B2AFD7540004CE113 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79B58E1C2AFD7540004CE113 /* Debug */,
+				79B58E1D2AFD7540004CE113 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

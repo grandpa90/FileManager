@@ -7,15 +7,88 @@
 
 import UIKit
 import CoreData
-
+import AppLovinSDK
+import AdSupport
+import AppTrackingTransparency
+import OneSignalFramework
+import FirebaseCore
 // adding testing Git
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
+    
+    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+        print("device Token",deviceToken)
+    }
+    
+    func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
+        
+
+        
+        
+    }
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+//        UINavigationBar.appearance().backgroundColor = .blue // backgorund color with gradient
+//        // or
+//        UINavigationBar.appearance().barTintColor = .blue  // solid color
+//            
+//        UIBarButtonItem.appearance().tintColor = .blue
+//        UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor : UIColor.white]
+//        UITabBar.appearance().barTintColor = .yellow
+        
+        
+
+//        if #available(iOS 14, *) {
+//            ATTrackingManager.requestTrackingAuthorization { status in
+//                switch status {
+//                    case .authorized:
+//                        print("enable tracking")
+//                    case .denied:
+//                        print("disable tracking")
+//                    default:
+//                        print("disable tracking")
+//                }
+//            }
+//        }
+//        var navigationBarAppearace = UINavigationBar.appearance()
+//        navigationBarAppearace.tintColor = UIColor.red
+//        navigationBarAppearace.barTintColor = UIColor.red
+//        navigationBarAppearace.titleTextAttributes = [NSAttributedString.Key.foregroundColor:UIColor.white]
+        
+        UINavigationBar.appearance().tintColor = UIColor.white
+
+        FirebaseApp.configure()
+        
+        OneSignal.Debug.setLogLevel(.LL_VERBOSE)
+        OneSignal.initialize("d51ead96-2966-46a4-afc4-2f467a91421e", withLaunchOptions: launchOptions)
+
+        OneSignal.Notifications.requestPermission({ accepted in
+                print("User accepted notifications: \(accepted)")
+              }, fallbackToSettings: true)
+
+        
+        let myIDFA: String?
+           // Check if Advertising Tracking is Enabled
+        if ASIdentifierManager.shared().isAdvertisingTrackingEnabled {
+               // Set the IDFA
+            myIDFA = ASIdentifierManager.shared().advertisingIdentifier.uuidString
+            print("my ID",myIDFA ?? "DEFAuL_VALUE")
+           } else {
+               myIDFA = nil
+           }
+        
+        ALSdk.shared()!.mediationProvider = "max"
+
+           ALSdk.shared()!.userIdentifier = myIDFA
+
+           ALSdk.shared()!.initializeSdk { (configuration: ALSdkConfiguration) in
+               // Start loading ads
+           }
         return true
     }
 

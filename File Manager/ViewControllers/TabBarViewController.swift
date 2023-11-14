@@ -11,7 +11,13 @@ class TabBarViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        UITabBar.appearance().barTintColor = UIColor.darkGray
+        UITabBar.appearance().tintColor = UIColor.primary
+        UITabBar.appearance().backgroundColor = UIColor.lightBlue
+//        tabBarItem = UITabBarItem(title: "Home", image: UIImage(systemName: "house"), selectedImage: UIImage(systemName: "house.fill"))
+//        tabBarItem = UITabBarItem(title: "Home", image: UIImage(systemName: "house"), selectedImage: UIImage(systemName: "house.fill"))
+//        tabBarItem = UITabBarItem(title: "Home", image: UIImage(systemName: "house"), selectedImage: UIImage(systemName: "house.fill"))
+       
         // Do any additional setup after loading the view.
     }
     

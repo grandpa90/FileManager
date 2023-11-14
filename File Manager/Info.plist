@@ -2,6 +2,27 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+    
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>We need access to your photo library to [provide a brief description of why your app needs this access].</string>
+    
+    <key>NSCameraUsageDescription</key>
+    <string>We need access to your camera to capture photos.</string>
+    <key>NSPhotoLibraryChangeUsageDescription</key>
+    <string>We need access to your photos to detect changes and update the app accordingly.</string>
+    <key>NSFileProviderDomainUsageDescription</key>
+    <string>We need access to your files to [provide a brief description of why your app needs this access].</string>
+    <key>NSUserTrackingUsageDescription</key>
+    <string>This identifier will be used to deliver personalized ads to you.</string>
+	<key>AppLovinSdkKey</key>
+	<string>TvJQGrUVBz2XRoEdbc3BKLINDy9QuwypH3xSazVLgKcTX7qTcTKDerNSWsFnrFwQ5fk2nCeFLP88F7Ju4SJx2T</string>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -21,5 +42,9 @@
 			</array>
 		</dict>
 	</dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+	</array>
 </dict>
 </plist>
