@@ -8,8 +8,9 @@
 import UIKit
 import UIKit
 import Photos
-
-
+import FirebaseCoreInternal
+import FirebaseStorage
+import Firebase
 
 class photosCollectionViewController: UICollectionViewController {
     private let reuseIdentifier = "photoCell"
@@ -19,6 +20,57 @@ class photosCollectionViewController: UICollectionViewController {
     var fetchResult: PHFetchResult<PHAsset>!
     var selectedIndexes: [IndexPath] = []
     var selectedImage:[UIImage] = []
+    
+    
+    func uploadImageToFirestore(image: UIImage) {
+           guard let imageData = image.jpegData(compressionQuality: 0.8) else {
+               return
+           }
+
+           // Create a unique filename or use a timestamp for the image
+           let filename = "image_\(Date().timeIntervalSince1970).jpg"
+
+           // Create a reference to the Firebase Storage location where you want to upload the image
+           let storageRef = Storage.storage().reference().child("images").child(filename)
+
+           // Upload the image data to Firebase Storage
+           let uploadTask = storageRef.putData(imageData, metadata: nil) { (_, error) in
+               if let error = error {
+                   print("Error uploading image: \(error.localizedDescription)")
+                   return
+               }
+
+               // If successful, get the download URL of the uploaded image
+               storageRef.downloadURL { (url, error) in
+                   if let downloadURL = url {
+                       // Save the downloadURL or other information in Firestore here
+                       self.saveImageURLToFirestore(url: downloadURL.absoluteString)
+                   } else if let error = error {
+                       print("Error getting download URL: \(error.localizedDescription)")
+                   }
+               }
+           }
+           
+//                // Optionally, you can track the upload progress
+//                uploadTask.observe(.progress) { snapshot in
+//                    let percentComplete = 100.0 * Double(snapshot.progress!.completedUnitCount) / Double(snapshot.progress!.totalUnitCount)
+//                    print("Upload progress: \(percentComplete)%")
+//                }
+       }
+
+       func saveImageURLToFirestore(url: String) {
+           // Save the image URL to Firestore (Add to a collection or document)
+           // Here, you can add the URL to a Firestore collection along with other metadata if needed
+           let db = Firestore.firestore()
+           db.collection("images").addDocument(data: ["imageUrl": url]) { error in
+//                    if let error = error {
+//                        print("Error adding document: \(error.localizedDescription)")
+//                    } else {
+//                        print("Document added with ID: \(documentReference!.documentID)")
+//                    }
+           }
+       }
+    
      func deleteSelectedPhotos() {
         
          
@@ -26,6 +78,9 @@ class photosCollectionViewController: UICollectionViewController {
          for img in selectedImage {
              deleteImageFromGallery(image: img)
          }
+         
+         
+         
                         
         
 //        guard var selectedIndexPaths = collectionView.indexPathsForSelectedItems else {
@@ -249,6 +304,9 @@ class photosCollectionViewController: UICollectionViewController {
         // Do any additional setup after loading the view.
     }
     @IBAction func uploadButtonAction(_ sender: UIBarButtonItem) {
+        for img in selectedImage {
+            self.uploadImageToFirestore(image: img)
+        }
     }
     
     /*
@@ -357,8 +415,10 @@ class photosCollectionViewController: UICollectionViewController {
 
     }
     override func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
+     
             if let index = selectedIndexes.firstIndex(of: indexPath) {
                 selectedIndexes.remove(at: index)
+               // selectedImage.remove(at: indexPath.)
             }
         }
     

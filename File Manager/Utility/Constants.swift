@@ -30,8 +30,7 @@ class Constants {
     enum APP_SETTINGS {
         
         static let EMAIL = "zakaria.safi.darwish@gmail.com"
-        
-        
+        static let STORAGE_BUCKET = "gs://filemanager-2f860.appspot.com/Images"
     }
 
 

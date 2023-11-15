@@ -13,6 +13,8 @@ target 'File Manager' do
   pod 'FirebaseAuth'
   pod 'FirebaseFirestore'
   pod "MBCircularProgressBar"
+  pod 'Firebase/Storage'
+
 #  pod 'RxSwift', '6.6.0'
 #   pod 'RxCocoa', '6.6.0'
 #  pod 'CircleProgressBar'

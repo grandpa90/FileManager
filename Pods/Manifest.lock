@@ -638,6 +638,11 @@ PODS:
   - BoringSSL-GRPC/Implementation (0.0.24):
     - BoringSSL-GRPC/Interface (= 0.0.24)
   - BoringSSL-GRPC/Interface (0.0.24)
+  - Firebase/CoreOnly (10.17.0):
+    - FirebaseCore (= 10.17.0)
+  - Firebase/Storage (10.17.0):
+    - Firebase/CoreOnly
+    - FirebaseStorage (~> 10.17.0)
   - FirebaseAnalytics (10.17.0):
     - FirebaseAnalytics/AdIdSupport (= 10.17.0)
     - FirebaseCore (~> 10.0)
@@ -664,6 +669,7 @@ PODS:
     - GoogleUtilities/Environment (~> 7.8)
     - GTMSessionFetcher/Core (< 4.0, >= 2.1)
     - RecaptchaInterop (~> 100.0)
+  - FirebaseAuthInterop (10.17.0)
   - FirebaseCore (10.17.0):
     - FirebaseCoreInternal (~> 10.0)
     - GoogleUtilities/Environment (~> 7.8)
@@ -697,6 +703,12 @@ PODS:
     - GoogleUtilities/UserDefaults (~> 7.8)
     - PromisesObjC (~> 2.1)
   - FirebaseSharedSwift (10.17.0)
+  - FirebaseStorage (10.17.0):
+    - FirebaseAppCheckInterop (~> 10.0)
+    - FirebaseAuthInterop (~> 10.0)
+    - FirebaseCore (~> 10.0)
+    - FirebaseCoreExtension (~> 10.0)
+    - GTMSessionFetcher/Core (< 4.0, >= 2.1)
   - GoogleAppMeasurement (10.17.0):
     - GoogleAppMeasurement/AdIdSupport (= 10.17.0)
     - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
@@ -842,6 +854,7 @@ PODS:
 DEPENDENCIES:
   - AppLovinDSPLinkedInAdapter
   - AppLovinSDK
+  - Firebase/Storage
   - FirebaseAnalytics
   - FirebaseAuth
   - FirebaseFirestore
@@ -855,9 +868,11 @@ SPEC REPOS:
     - AppLovinDSPLinkedInAdapter
     - AppLovinSDK
     - BoringSSL-GRPC
+    - Firebase
     - FirebaseAnalytics
     - FirebaseAppCheckInterop
     - FirebaseAuth
+    - FirebaseAuthInterop
     - FirebaseCore
     - FirebaseCoreExtension
     - FirebaseCoreInternal
@@ -865,6 +880,7 @@ SPEC REPOS:
     - FirebaseFirestoreInternal
     - FirebaseInstallations
     - FirebaseSharedSwift
+    - FirebaseStorage
     - GoogleAppMeasurement
     - GoogleUtilities
     - "gRPC-C++"
@@ -883,9 +899,11 @@ SPEC CHECKSUMS:
   AppLovinDSPLinkedInAdapter: ea117f8c29c2b3aae3c50beac81f87684606442f
   AppLovinSDK: 5c667a790725d9529c01c3f3acf12ab195865fbb
   BoringSSL-GRPC: 3175b25143e648463a56daeaaa499c6cb86dad33
+  Firebase: f4ac0b02927af9253ae094d23deecf0890da7374
   FirebaseAnalytics: b9284f9fff10157a843e0422e908711f7bf3b9f2
   FirebaseAppCheckInterop: 534d033d8d0436b4ab066a8205013d271e18a2b9
   FirebaseAuth: 8d285d9f6e39cc8e23be53a4edd83a923ea629d8
+  FirebaseAuthInterop: 86bc376e41419f2dc05c16aa42fe8301171a93aa
   FirebaseCore: 534544dd98cabcf4bf8598d88ec683b02319a528
   FirebaseCoreExtension: 47720bb330d7041047c0935a34a3a4b92f818074
   FirebaseCoreInternal: 2cf9202e226e3f78d2bf6d56c472686b935bfb7f
@@ -893,6 +911,7 @@ SPEC CHECKSUMS:
   FirebaseFirestoreInternal: f902222ee92a48e30693bf347f6a8f365c800e79
   FirebaseInstallations: 9387bf15abfc69a714f54e54f74a251264fdb79b
   FirebaseSharedSwift: e8fe8d63d434266a1b2c7f02807d5b64462e1851
+  FirebaseStorage: 4af6f9ea67b6a8e4e3cbd75e006b4776a50e8b12
   GoogleAppMeasurement: 4dcddfc7f102825c1c4e6422cb35567b101881a7
   GoogleUtilities: 0759d1a57ebb953965c2dfe0ba4c82e95ccc2e34
   "gRPC-C++": 2df8cba576898bdacd29f0266d5236fa0e26ba6a
@@ -906,6 +925,6 @@ SPEC CHECKSUMS:
   PromisesObjC: c50d2056b5253dadbd6c2bea79b0674bd5a52fa4
   RecaptchaInterop: 7d1a4a01a6b2cb1610a47ef3f85f0c411434cb21
 
-PODFILE CHECKSUM: d540fd81e89935ff360e4e772b18ddf707878534
+PODFILE CHECKSUM: 903ffd885439eb58d438b27f5252ab68f82f246a
 
 COCOAPODS: 1.14.2
